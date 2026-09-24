@@ -1,7 +1,7 @@
-from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestClassifier
 
-print("Machine Learning Model Training Started")
+print("ML Training Started")
 
-model = LinearRegression()
+model = RandomForestClassifier()
 
-print("Linear Regression model created successfully")
+print("Random Forest model created successfully")
